@@ -6,10 +6,12 @@ Files
 
 AdventureWorks Sales Report.pbix: A dynamic 3 page report summarizing internet sales data over 3 years.
 
-dimDate_clean.sql: SQL script for cleaning the DimDate table, including formatting date fields and filtering data for the desired timeframe.
+dimCalendar.sql: SQL script for cleaning the DimDate table, including formatting date fields and filtering data for the desired timeframe.
 
-dimCustomer_clean.sql: SQL script for cleaning the DimCustomer table, including handling null values and standardizing gender categories.
+dimClient.sql: SQL script for cleaning the DimCustomer table, including handling null values and standardizing gender categories.
 
-dimProduct_clean.sql: SQL script for cleaning the DimProduct table, including joining with related tables and handling discontinued products.
+dimProduct_cl.sql: SQL script for cleaning the DimProduct table, including joining with related tables and handling discontinued products.
 
-factInternetSales_clean.sql: SQL script for cleaning the FactInternetSales table, including filtering data for the desired timeframe and selecting relevant fields for analysis.
+factInternetSales_cl.sql: SQL script for cleaning the FactInternetSales table, including filtering data for the desired timeframe and selecting relevant fields for analysis.
+
+Update_AdventureWorksDW_Data.sql: SQL Script from David Alzamendi (https://techtalkcorner.com), updating the Adventureworks data to 2024
