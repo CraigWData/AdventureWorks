@@ -2,7 +2,10 @@ AdventureWorks Data Analytics Project
 Overview
 This repository contains SQL scripts and documentation for an end-to-end data analytics project leveraging AdventureWorks databases. The project aimed to enhance sales reporting by transitioning from static reports to dynamic visual dashboards, providing stakeholders with actionable insights for informed decision-making.
 
-SQL Files
+Files
+
+AdventureWorks Sales Report.pbix: A dynamic 3 page report summarizing internet sales data over 3 years.
+
 dimDate_clean.sql: SQL script for cleaning the DimDate table, including formatting date fields and filtering data for the desired timeframe.
 
 dimCustomer_clean.sql: SQL script for cleaning the DimCustomer table, including handling null values and standardizing gender categories.
